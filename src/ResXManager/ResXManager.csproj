@@ -16,6 +16,7 @@
     <RuntimeIdentifier>win-x86</RuntimeIdentifier>
     <PublishSingleFile>True</PublishSingleFile>
     <PublishReadyToRun>False</PublishReadyToRun>
+    <NoWarn>NU1701;CS8002</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="Exists('$(USERPROFILE)\tom-englert.de')">
     <DefineConstants>$(DefineConstants);TEST_L10N</DefineConstants>
