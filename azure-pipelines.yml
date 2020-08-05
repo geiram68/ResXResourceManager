@@ -21,7 +21,6 @@ steps:
      
      Source-SetBuildVersion "src\version.cs" | Build-AppendVersionToBuildNumber
      Vsix-SetBuildVersion "src\ResXManager.VSIX\source.extension.vsixmanifest"
-     Project-SetBuildVersion "src\ResXManager\ResXManager.csproj"
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
 
 - task: VSBuild@1
