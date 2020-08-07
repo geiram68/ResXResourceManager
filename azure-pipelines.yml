@@ -1,7 +1,7 @@
 name: $(Build.DefinitionName) $(date:yyyyMMdd)$(rev:.r)
 
 pool:
-  name: Default
+  vmImage: 'windows-latest'
   demands:
   - DotNetFramework
   - msbuild
