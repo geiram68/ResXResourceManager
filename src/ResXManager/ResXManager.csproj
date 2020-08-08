@@ -10,7 +10,7 @@
     <ApplicationIcon>ResourceManager.ico</ApplicationIcon>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\Key.snk</AssemblyOriginatorKeyFile>
-    <PublishDir>$(SolutionDir)\Deploy</PublishDir>
+    <PublishDir>..\Deploy</PublishDir>
     <PublishProtocol>FileSystem</PublishProtocol>
     <SelfContained>false</SelfContained>
     <RuntimeIdentifier>win-x86</RuntimeIdentifier>
